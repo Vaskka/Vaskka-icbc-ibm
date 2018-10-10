@@ -4,6 +4,8 @@ import com.icbc.api.internal.util.codec.Base64;
 
 import java.security.MessageDigest;
 import java.util.Date;
+import java.util.Random;
+import java.util.UUID;
 
 
 /**
@@ -70,6 +72,47 @@ public class UsualUtil {
         var f = new java.text.SimpleDateFormat("hhmmss");
         return f.format(new Date());
     }
+
+    /**
+     * 得到指定最大宽度的随机数
+     * @param length 最大宽度
+     * @return
+     */
+    public static String getRandomNumber(int length) {
+        if (length < 0 || length > 9) {
+            return null;
+        }
+
+        var random = new Random();
+
+        return String.valueOf(random.nextInt((int) Math.pow(10, length)));
+    }
+
+
+    /**
+     * 得到全局唯一的msg_id
+     * @return String msg_id
+     */
+    public static String getMsgId() {
+        var uuid =  UUID.randomUUID().toString();
+        var frontStr = uuid.substring(0, 4);
+        var endStr = uuid.substring(24, 36);
+
+        return "MSG" + frontStr + getCurrentDate() + getCurrentTime() + endStr;
+
+    }
+
+    /**
+     * 得到全局唯一的订单号
+     * @return String order_id
+     */
+    public static String getOrderId() {
+
+        var hash_full = MD5(getCurrentDate() + getCurrentTime() + getRandomNumber(1));
+
+        return "ORDER" + getCurrentDate() + getCurrentTime() + hash_full.substring(0, 5);
+    }
+
 
     /**
      * 用于deubg
