@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="ICBC_IBM_PAY_SDK:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ICBC_IBM_PAY_SDK_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ICBC_IBM_PAY_SDK.jar">
+        <element id="module-output" name="ICBC_IBM_PAY_SDK" />
+      </element>
+      <element id="file-copy" path="$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/icbc-ca.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/proguard.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/icbc-api-sdk-cop.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/commons-logging-1.2.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/icbc-api-sdk-cop-io.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/InfosecCrypto_Java1_02_JDK14+.jar" />
+    </root>
+  </artifact>
+</component>
