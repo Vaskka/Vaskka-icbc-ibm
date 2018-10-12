@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c86e5306-51a1-4e3f-aa7a-2f66e261f80c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icbc_ibm_manage/inner_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icbc_ibm_manage/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/artifacts/ICBC_IBM_PAY_SDK_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/artifacts/ICBC_IBM_PAY_SDK_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/ICBC_IBM_PAY_SDK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/ICBC_IBM_PAY_SDK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/ApiSdkRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/exception/ApiSdkInputFormatException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/exception/ApiSdkRuntimeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/response/ApiSdkBaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/response/ApiSdkPayQrcodeResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/response/ApiSdkRechargeResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/response/ApiSdkRejectQrcodeResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/utils/Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/out/production/ICBC_IBM_PAY_SDK/com/vaskka/api/icbc/sdk/utils/UsualUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/ApiSdkRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/exception/ApiSdkInputFormatException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/exception/ApiSdkRuntimeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkBaseResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkOpenAccountResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkPayQrcodeResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkRechargeResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkRejectQrcodeResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkSmsSendResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/response/ApiSdkSmsVerifyResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/utils/Const.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api/ICBC_IBM_PAY_SDK/src/com/vaskka/api/icbc/sdk/utils/UsualUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icbc_ibm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/icbc_ibm/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,27 +22,32 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="ini" value="1" />
           <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Ini" value="1" />
           <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6899" />
+          <entry key="py" value="6907" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6899" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="6907" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -80,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/icbc_ibm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="568">
+              <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -92,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="390">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
@@ -101,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
+            <state relative-caret-position="635">
               <caret line="188" column="73" selection-start-line="188" selection-start-column="73" selection-end-line="188" selection-end-column="73" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -113,16 +89,20 @@
                 <marker date="1539333884636" expanded="true" signature="1872:1877" ph="..." />
                 <marker date="1539333884636" expanded="true" signature="4275:4277" ph="..." />
                 <marker date="1539333884636" expanded="true" signature="4302:4307" ph="..." />
-                <marker date="1539333884636" expanded="true" signature="4881:5320" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/uwsgi.ini">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="1680">
               <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -138,14 +118,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#2#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -156,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/inner_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="915">
               <caret line="64" column="94" selection-start-line="64" selection-start-column="94" selection-end-line="64" selection-end-column="94" />
               <folding>
                 <element signature="e#13#24#0" expanded="true" />
@@ -175,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
+            <state relative-caret-position="780">
               <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
@@ -207,10 +180,10 @@
         <option value="$PROJECT_DIR$/icbc_ibm_manage/utils.py" />
         <option value="$PROJECT_DIR$/icbc_ibm_manage/admin.py" />
         <option value="$PROJECT_DIR$/icbc_ibm/urls.py" />
-        <option value="$PROJECT_DIR$/icbc_ibm/settings.py" />
         <option value="$PROJECT_DIR$/icbc_ibm_manage/models.py" />
         <option value="$PROJECT_DIR$/icbc_ibm_manage/inner_tool.py" />
         <option value="$PROJECT_DIR$/icbc_ibm_manage/views.py" />
+        <option value="$PROJECT_DIR$/icbc_ibm/settings.py" />
       </list>
     </option>
   </component>
@@ -231,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,10 +221,16 @@
               <item name="icbc_ibm" type="462c0819:PsiDirectoryNode" />
               <item name="icbc_ibm_manage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="icbc_ibm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icbc_ibm" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,6 +287,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539271620650</updated>
     </task>
+    <task id="LOCAL-00001" summary="change debug">
+      <created>1539349301860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539349301860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -316,7 +302,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32907802" />
@@ -346,6 +332,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="change debug" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -363,41 +353,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-            <marker date="1539326924148" expanded="true" signature="92:205" ph="..." />
-            <marker date="1539326924148" expanded="true" signature="223:385" ph="..." />
-            <marker date="1539326924148" expanded="true" signature="406:411" ph="..." />
-            <marker date="1539326924148" expanded="true" signature="585:590" ph="..." />
-            <marker date="1539326924148" expanded="true" signature="757:762" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#2#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/django/conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -412,9 +367,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/icbc_ibm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="1680">
           <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -427,9 +392,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/inner_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="915">
           <caret line="64" column="94" selection-start-line="64" selection-start-column="94" selection-end-line="64" selection-end-column="94" />
           <folding>
             <element signature="e#13#24#0" expanded="true" />
@@ -444,19 +415,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm/urls.py">
+    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="780">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#14#29#0" expanded="true" />
+            <marker date="1539326924148" expanded="true" signature="92:205" ph="..." />
+            <marker date="1539326924148" expanded="true" signature="223:385" ph="..." />
+            <marker date="1539326924148" expanded="true" signature="406:411" ph="..." />
+            <marker date="1539326924148" expanded="true" signature="585:590" ph="..." />
+            <marker date="1539326924148" expanded="true" signature="757:762" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
+        <state relative-caret-position="635">
           <caret line="188" column="73" selection-start-line="188" selection-start-column="73" selection-end-line="188" selection-end-column="73" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -465,8 +444,14 @@
             <marker date="1539333884636" expanded="true" signature="1872:1877" ph="..." />
             <marker date="1539333884636" expanded="true" signature="4275:4277" ph="..." />
             <marker date="1539333884636" expanded="true" signature="4302:4307" ph="..." />
-            <marker date="1539333884636" expanded="true" signature="4881:5320" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icbc_ibm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
         </state>
       </provider>
     </entry>
