@@ -1,0 +1,431 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Oct 12 20:06:34 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 11:44:53
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /home/admin/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on localhost:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1959e20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 15, in <module>
+    import MySQLdb as Database
+ImportError: No module named 'MySQLdb'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "./icbc_ibm/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/admin/.local/lib/python3.5/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/admin/.local/lib/python3.5/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/admin/.local/lib/python3.5/site-packages/django/apps/registry.py", line 112, in populate
+    app_config.import_models()
+  File "/home/admin/.local/lib/python3.5/site-packages/django/apps/config.py", line 198, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/admin/.local/lib/python3.5/site-packages/django/contrib/auth/models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/home/admin/.local/lib/python3.5/site-packages/django/contrib/auth/base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/models/base.py", line 101, in __new__
+    new_class.add_to_class('_meta', Options(meta, app_label))
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/models/base.py", line 305, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/models/options.py", line 203, in contribute_to_class
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/__init__.py", line 33, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/utils.py", line 202, in __getitem__
+    backend = load_backend(db['ENGINE'])
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/utils.py", line 110, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/admin/.local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 20, in <module>
+    ) from err
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+Did you install mysqlclient?
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 30790)
+spawned uWSGI worker 1 (pid: 30792, cores: 1)
+spawned uWSGI worker 2 (pid: 30793, cores: 1)
+spawned uWSGI worker 3 (pid: 30794, cores: 1)
+spawned uWSGI worker 4 (pid: 30795, cores: 1)
+spawned uWSGI worker 5 (pid: 30796, cores: 1)
+spawned uWSGI http 1 (pid: 30797)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 30797)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Oct 12 20:13:02 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 11:44:53
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /home/admin/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on localhost:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2064e20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2064e20 pid: 2574 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2574)
+spawned uWSGI worker 1 (pid: 2576, cores: 1)
+spawned uWSGI worker 2 (pid: 2577, cores: 1)
+spawned uWSGI worker 3 (pid: 2578, cores: 1)
+spawned uWSGI worker 4 (pid: 2579, cores: 1)
+spawned uWSGI worker 5 (pid: 2580, cores: 1)
+spawned uWSGI http 1 (pid: 2581)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 2581)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Fri Oct 12 20:30:25 2018] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 3147)
+spawned uWSGI worker 1 (pid: 3148, cores: 1)
+spawned uWSGI worker 2 (pid: 3149, cores: 1)
+spawned uWSGI worker 3 (pid: 3150, cores: 1)
+spawned uWSGI worker 4 (pid: 3151, cores: 1)
+spawned uWSGI worker 5 (pid: 3152, cores: 1)
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+SIGINT/SIGQUIT received...killing workers...
+[deadlock-detector] a process holding a robust mutex died. recovering...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+worker 5 buried after 0 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Fri Oct 12 20:41:05 2018] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 3527)
+spawned uWSGI worker 1 (pid: 3528, cores: 1)
+spawned uWSGI worker 2 (pid: 3529, cores: 1)
+spawned uWSGI worker 3 (pid: 3530, cores: 1)
+spawned uWSGI worker 4 (pid: 3531, cores: 1)
+spawned uWSGI worker 5 (pid: 3532, cores: 1)
+-- unavailable modifier requested: 0 --
+SIGINT/SIGQUIT received...killing workers...
+[deadlock-detector] a process holding a robust mutex died. recovering...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+worker 5 buried after 0 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Fri Oct 12 20:47:48 2018] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 3574)
+spawned uWSGI worker 1 (pid: 3575, cores: 1)
+spawned uWSGI worker 2 (pid: 3576, cores: 1)
+spawned uWSGI worker 3 (pid: 3577, cores: 1)
+spawned uWSGI worker 4 (pid: 3578, cores: 1)
+spawned uWSGI worker 5 (pid: 3579, cores: 1)
+-- unavailable modifier requested: 0 --
+SIGINT/SIGQUIT received...killing workers...
+[deadlock-detector] a process holding a robust mutex died. recovering...
+[deadlock-detector] a process holding a robust mutex died. recovering...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+worker 5 buried after 0 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Fri Oct 12 20:50:24 2018] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 3598)
+spawned uWSGI worker 1 (pid: 3599, cores: 1)
+spawned uWSGI worker 2 (pid: 3600, cores: 1)
+spawned uWSGI worker 3 (pid: 3601, cores: 1)
+spawned uWSGI worker 4 (pid: 3602, cores: 1)
+spawned uWSGI worker 5 (pid: 3603, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Fri Oct 12 20:52:51 2018] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2483370
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2483370 pid: 15249 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15249)
+spawned uWSGI worker 1 (pid: 15251, cores: 1)
+spawned uWSGI worker 2 (pid: 15252, cores: 1)
+spawned uWSGI worker 3 (pid: 15253, cores: 1)
+spawned uWSGI worker 4 (pid: 15254, cores: 1)
+spawned uWSGI worker 5 (pid: 15255, cores: 1)
+[pid: 15253|app: 0|req: 1/1] 220.167.43.173 () {40 vars in 687 bytes} [Fri Oct 12 12:53:10 2018] GET /admin/ => generated 0 bytes in 44 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 15252|app: 0|req: 1/2] 220.167.43.173 () {40 vars in 724 bytes} [Fri Oct 12 12:53:10 2018] GET /admin/login/?next=/admin/ => generated 1819 bytes in 105 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 15255|app: 0|req: 1/3] 220.167.43.173 () {42 vars in 798 bytes} [Fri Oct 12 12:53:10 2018] GET /static/admin/css/base.css => generated 2944 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 15254|app: 0|req: 1/4] 220.167.43.173 () {42 vars in 800 bytes} [Fri Oct 12 12:53:10 2018] GET /static/admin/css/login.css => generated 2947 bytes in 34 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 15251|app: 0|req: 1/5] 220.167.43.173 () {42 vars in 810 bytes} [Fri Oct 12 12:53:10 2018] GET /static/admin/css/responsive.css => generated 2962 bytes in 28 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /register/try
+[pid: 15253|app: 0|req: 2/6] 220.167.43.173 () {42 vars in 788 bytes} [Fri Oct 12 12:53:35 2018] GET /register/try => generated 2905 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 15252|app: 0|req: 2/7] 220.167.43.173 () {42 vars in 796 bytes} [Fri Oct 12 12:53:43 2018] GET /api/register/try => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 2/8] 220.167.43.173 () {42 vars in 798 bytes} [Fri Oct 12 12:53:44 2018] GET /api/register/try/ => generated 80 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Fri Oct 12 20:55:25 2018] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: iZ2ze9ilp8qh02aa0tsmxoZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script
+writing pidfile to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x16cc380
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16cc380 pid: 15278 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15278)
+spawned uWSGI worker 1 (pid: 15280, cores: 1)
+spawned uWSGI worker 2 (pid: 15281, cores: 1)
+spawned uWSGI worker 3 (pid: 15282, cores: 1)
+spawned uWSGI worker 4 (pid: 15283, cores: 1)
+spawned uWSGI worker 5 (pid: 15284, cores: 1)
+[pid: 15283|app: 0|req: 1/1] 220.167.43.173 () {42 vars in 798 bytes} [Fri Oct 12 12:55:28 2018] GET /api/register/try/ => generated 80 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 15281|app: 0|req: 1/2] 220.167.43.173 () {42 vars in 764 bytes} [Fri Oct 12 12:55:34 2018] GET / => generated 74 bytes in 32 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 15284|app: 0|req: 1/3] 220.167.43.173 () {42 vars in 770 bytes} [Fri Oct 12 12:55:39 2018] GET /asd => generated 77 bytes in 22 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 15282|app: 0|req: 1/4] 220.167.43.173 () {42 vars in 776 bytes} [Fri Oct 12 12:55:46 2018] GET /admin/ => generated 0 bytes in 33 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 15280|app: 0|req: 1/5] 220.167.43.173 () {42 vars in 813 bytes} [Fri Oct 12 12:55:46 2018] GET /admin/login/?next=/admin/ => generated 1819 bytes in 58 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 15283|app: 0|req: 2/6] 220.167.43.173 () {42 vars in 798 bytes} [Fri Oct 12 12:55:46 2018] GET /static/admin/css/base.css => generated 99 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 15281|app: 0|req: 2/7] 220.167.43.173 () {42 vars in 800 bytes} [Fri Oct 12 12:55:46 2018] GET /static/admin/css/login.css => generated 100 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 15284|app: 0|req: 2/8] 220.167.43.173 () {42 vars in 810 bytes} [Fri Oct 12 12:55:46 2018] GET /static/admin/css/responsive.css => generated 105 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/admin/icbc_ibm/Vaskka-icbc-ibm/backend/icbc_ibm/script/uwsgi.sock removed.
