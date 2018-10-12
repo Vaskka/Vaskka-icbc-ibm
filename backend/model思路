@@ -1,0 +1,25 @@
+用户表 
+	昵称
+	密码
+	姓名
+	身份证
+	电话号
+	一类卡号
+
+支付订单表
+	msg_id
+	order_id
+	money
+	-> user
+	支付url default:none
+	pay_type 0-支付 1-退款
+
+短信发送表
+	msg_id
+	order_id
+	短信发送编号
+	-> user
+
+
+
+

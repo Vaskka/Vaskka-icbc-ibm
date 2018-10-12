@@ -1,5 +1,4 @@
 Manifest-Version: 1.0
 Class-Path: icbc-ca.jar proguard.jar icbc-api-sdk-cop.jar commons-logg
  ing-1.2.jar icbc-api-sdk-cop-io.jar InfosecCrypto_Java1_02_JDK14+.jar
-Main-Class: 
 

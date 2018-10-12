@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/icbc_qrcode_jar/libs/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/icbc_qrcode_jar/libs/icbc-api-sdk-cop-io.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/icbc_qrcode_jar/libs/icbc-api-sdk-cop.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/icbc-ca.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/InfosecCrypto_Java1_02_JDK14+.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/icbc-api-sdk-cop_v2_20180906/lib/proguard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

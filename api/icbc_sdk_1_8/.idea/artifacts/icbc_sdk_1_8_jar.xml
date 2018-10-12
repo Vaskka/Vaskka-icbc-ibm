@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="icbc_sdk_1_8:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/icbc_sdk_1_8_jar</output-path>
+    <root id="root">
+      <element id="archive" name="icbc_sdk_1_8.jar">
+        <element id="module-output" name="icbc_sdk_1_8" />
+      </element>
+      <element id="library" level="project" name="commons-logging-1.2" />
+    </root>
+  </artifact>
+</component>
