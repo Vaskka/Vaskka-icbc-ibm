@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c86e5306-51a1-4e3f-aa7a-2f66e261f80c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icbc_ibm_manage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/icbc_ibm_manage/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +18,12 @@
     <session id="588548377">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6911" />
+          <entry key="py" value="6914" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="27" />
-          <entry key="Python" value="6911" />
+          <entry key="Python" value="6914" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -58,17 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
+            <state relative-caret-position="1950">
               <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icbc_ibm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -76,18 +77,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="188" column="73" selection-start-line="188" selection-start-column="73" selection-end-line="188" selection-end-column="73" />
+            <state relative-caret-position="258">
+              <caret line="147" column="9" lean-forward="true" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1539349755748" expanded="true" signature="146:151" ph="..." />
-                <marker date="1539349755748" expanded="true" signature="1525:1530" ph="..." />
-                <marker date="1539349755748" expanded="true" signature="1872:1877" ph="..." />
-                <marker date="1539349755748" expanded="true" signature="4275:4277" ph="..." />
-                <marker date="1539349755748" expanded="true" signature="4302:4307" ph="..." />
+                <marker date="1539425069706" expanded="true" signature="146:151" ph="..." />
+                <marker date="1539425069706" expanded="true" signature="1525:1530" ph="..." />
+                <marker date="1539425069706" expanded="true" signature="1872:1877" ph="..." />
+                <marker date="1539425069706" expanded="true" signature="4578:4580" ph="..." />
+                <marker date="1539425069706" expanded="true" signature="4605:4610" ph="..." />
               </folding>
             </state>
           </provider>
@@ -181,8 +182,8 @@
         <option value="$PROJECT_DIR$/icbc_ibm/urls.py" />
         <option value="$PROJECT_DIR$/icbc_ibm_manage/models.py" />
         <option value="$PROJECT_DIR$/icbc_ibm_manage/inner_tool.py" />
-        <option value="$PROJECT_DIR$/icbc_ibm_manage/views.py" />
         <option value="$PROJECT_DIR$/icbc_ibm/settings.py" />
+        <option value="$PROJECT_DIR$/icbc_ibm_manage/views.py" />
       </list>
     </option>
   </component>
@@ -329,7 +330,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32907802" />
@@ -395,6 +396,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/icbc_ibm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -448,37 +459,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/views.py">
+    <entry file="file://$PROJECT_DIR$/icbc_ibm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="188" column="73" selection-start-line="188" selection-start-column="73" selection-end-line="188" selection-end-column="73" />
+        <state relative-caret-position="435">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1539349755748" expanded="true" signature="146:151" ph="..." />
-            <marker date="1539349755748" expanded="true" signature="1525:1530" ph="..." />
-            <marker date="1539349755748" expanded="true" signature="1872:1877" ph="..." />
-            <marker date="1539349755748" expanded="true" signature="4275:4277" ph="..." />
-            <marker date="1539349755748" expanded="true" signature="4302:4307" ph="..." />
+            <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm/settings.py">
+    <entry file="file://$PROJECT_DIR$/icbc_ibm_manage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icbc_ibm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="258">
+          <caret line="147" column="9" lean-forward="true" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1539425069706" expanded="true" signature="146:151" ph="..." />
+            <marker date="1539425069706" expanded="true" signature="1525:1530" ph="..." />
+            <marker date="1539425069706" expanded="true" signature="1872:1877" ph="..." />
+            <marker date="1539425069706" expanded="true" signature="4578:4580" ph="..." />
+            <marker date="1539425069706" expanded="true" signature="4605:4610" ph="..." />
           </folding>
         </state>
       </provider>

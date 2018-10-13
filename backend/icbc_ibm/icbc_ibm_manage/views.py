@@ -142,13 +142,14 @@ def pay(request):
     """
     try:
         request_object = inner_goto_dict(request)
-        if inner_check_identity(request_object):
-            # +待完善
-
-            # -待完善
-            return JsonResponse(inner_get_common_success_response({"pay_url": "url"}))
-        else:
-            return JsonResponse(inner_get_error_response(403, "identity verify error"))
+        return JsonResponse(inner_get_common_success_response({"pay_url": "https://b2ciicamp.dccnet.com.cn/servlet/wcqr?f=ICBCqr&X=1&T=3&P=6&I=dda5a8c6c91e455b&N=6ffca517a6b68febc5cf2a7d95d8fdfb&L=4e77298cf75dea0b2a4e7d6f4865f05221f1a34ff15b0e06142b1f688705295ba3e561ac93160076"}))
+        # if inner_check_identity(request_object):
+        #     # +待完善
+        #
+        #     # -待完善
+        #     return JsonResponse(inner_get_common_success_response({"pay_url": "url"}))
+        # else:
+        #     return JsonResponse(inner_get_error_response(403, "identity verify error"))
     except Exception as e:
         return JsonResponse(inner_get_error_response(500, repr(e)))
     pass
