@@ -13,7 +13,8 @@ def inner_goto_dict(request):
     :param request:
     :return: dict
     """
-    return json.loads(str(request.body))
+    s = request.body.decode("utf-8")
+    return json.loads(s)
     pass
 
 
