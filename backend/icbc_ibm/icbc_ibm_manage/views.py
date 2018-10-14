@@ -97,9 +97,16 @@ def log_in(request):
     """
     try:
         request_object = inner_goto_dict(request)
+
+        # 检查是否未注册
+        if not inner_check_register(inner_from_tel_get_user_id(request_object["tel"])):
+            return JsonResponse(inner_get_error_response(403, "user is not registered"))
+
+        # 检查是否已经登陆
         if inner_check_already_log_in(inner_from_tel_get_user_id(request_object["tel"])):
             return JsonResponse(inner_get_error_response(400, "user already login"))
 
+        # 检查用户名密码
         if inner_verify_log_in(request_object):
             st = md5(get_current_time())
             user_id = inner_from_tel_get_user_id(request_object["tel"])

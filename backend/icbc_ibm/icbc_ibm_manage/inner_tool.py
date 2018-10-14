@@ -151,3 +151,20 @@ def inner_go_log_out(param):
     :return:
     """
     UserSession.objects.filter(user_id=param["user_id"]).delete()
+
+
+def inner_check_register(user_id):
+    """
+    检查是否注册
+    :param user_id:
+    :return:
+    """
+    try:
+        res = User.objects.get(user_id=user_id)
+    except:
+        return False
+
+    if res.status == 0:
+        return True
+
+    return False
