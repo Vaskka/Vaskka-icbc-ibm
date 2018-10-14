@@ -195,3 +195,20 @@ def recharge(request):
     pass
 
     pass
+
+
+def get_balance(request):
+    """
+    余额查询
+    :param request:
+    :return:
+    """
+
+    try:
+        # 待完善 +
+        # 待完善 -
+        return JsonResponse(inner_get_common_success_response({"balance": "10000"}))
+        pass
+    except Exception as e:
+        return JsonResponse(inner_get_error_response(500, repr(e)))
+    pass

@@ -20,6 +20,7 @@ from icbc_ibm_manage.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/get/balance/', get_balance),
     path('api/register/try/', try_to_register),
     path('api/register/confirm/', confirm_verify_code),
     path('api/register/resend/', resend_confirm_code),
