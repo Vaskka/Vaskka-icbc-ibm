@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <!--出入表单-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <!--起点-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="13dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拼车起点："
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+            <EditText
+                android:id="@+id/car_order_input_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!--终点-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="13dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拼车终点："
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+            <EditText
+                android:id="@+id/car_order_input_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!--时间-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="13dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拼车时间："
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                />
+            <Button
+                android:id="@+id/car_order_input_time_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="选择时间"
+                android:gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+        <!--姓名-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="13dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您的姓名："
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+            <EditText
+                android:id="@+id/car_order_input_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!--联系方式-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="13dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系方式："
+                android:layout_weight="1"
+                android:gravity="center_horizontal"/>
+            <EditText
+                android:id="@+id/car_order_input_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--返回和提交按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/car_order_input_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/car_order_input_commit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发起拼车"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
