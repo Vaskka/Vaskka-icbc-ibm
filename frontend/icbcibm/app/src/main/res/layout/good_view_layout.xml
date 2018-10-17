@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/root_good"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/good_cover"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/good_swing" />
+
+    <TextView
+        android:id="@+id/good_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/good_cover"
+        android:text="好吃的炸鸡"
+        android:layout_below="@id/good_name"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="13dp"
+        android:textColor="#636363"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/good_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/good_cover"
+        android:text="麦辣鸡翅"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#636363" />
+
+
+
+
+    <TextView
+        android:id="@+id/price_sales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/good_cover"
+        android:layout_marginLeft="15dp"
+        android:textSize="8sp"
+        android:text="月销量 0 份"
+        android:textColor="#636363" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/good_price"
+        android:text="¥5"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textColor="#ed3f3f"
+        android:layout_toRightOf="@id/good_cover"/>
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#efeeee" />
+    <ImageView
+        android:id="@+id/btn_good_add"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/good_add"/>
+
+</RelativeLayout>

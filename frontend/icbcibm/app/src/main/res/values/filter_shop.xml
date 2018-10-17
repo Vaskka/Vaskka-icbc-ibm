@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="filter_shop">
+            <item>筛选</item>
+            <item>餐馆</item>
+            <item>超市</item>
+            <item>小吃饮品</item>
+            <item>生鲜食材</item>
+        </string-array>
+    </resources>
+

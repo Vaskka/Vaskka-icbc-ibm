@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="home.HomeFragment"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/titlebar" />
+    <RelativeLayout
+        android:id="@+id/rl_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        android:layout_toRightOf="@id/rg_home"
+        android:background="#f2f2f2"
+        />
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/rg_home"
+        android:layout_below="@id/titlebar"
+        android:background="#fff" />
+    <RadioGroup
+        android:id = "@+id/rg_home"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_eat"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:button="@null"
+            android:text="拼\n吃"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#777777"
+            android:background="@drawable/home_left_button_selector"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#eeee" />
+
+        <RadioButton
+            android:id="@+id/rb_transport"
+            android:layout_width="match_parent"
+            android:text="拼\n车"
+            android:layout_height="175dp"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#777777"
+            android:background="@drawable/home_left_button_selector"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#eeee" />
+        <RadioButton
+            android:id="@+id/rb_live"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:button="@null"
+            android:text="拼\n租"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#777777"
+            android:background="@drawable/home_left_button_selector"/>
+
+
+    </RadioGroup>
+
+
+
+
+
+
+</RelativeLayout>

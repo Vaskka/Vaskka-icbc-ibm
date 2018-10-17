@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="Suspicious0dp" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup_main"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home_bottom_parent_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radiobuttom_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:layout_marginLeft="40dp"
+            android:text="首页"
+            android:drawableTop="@drawable/bottom_home_button_selector"/>
+
+        <RadioButton
+            android:id="@+id/radiobuttom_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_chart_button_selector"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="消息" />
+        <RadioButton
+            android:id="@+id/radiobuttom_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_cart_button_selector"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="购物车" />
+        <RadioButton
+            android:id="@+id/radiobuttom_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_user_button_selector"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="个人" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

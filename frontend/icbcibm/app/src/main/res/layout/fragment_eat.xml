@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="home.EatFragment"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    >
+    <RelativeLayout
+        android:id="@+id/eat_filter"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff">
+        <Spinner
+            android:id="@+id/shop_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/sort_eat">
+        </Spinner>
+        <Spinner
+            android:id="@+id/shop_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/shop_sort"
+            android:layout_toLeftOf="@id/btn_pining"
+            android:entries="@array/filter_shop">
+        </Spinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_pining"
+            android:layout_alignParentRight="true"
+            android:button="@null"
+            android:text="已有拼单"
+            android:background="#fff" />
+    </RelativeLayout>
+    <!-- <ListView
+         android:id="@+id/shop_list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/eat_filter">
+
+     </ListView>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@id/eat_filter"
+        />
+    <!-- android:padding="4dp"-->
+
+
+</RelativeLayout>

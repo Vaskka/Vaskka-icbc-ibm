@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sale_discount">
+        <item>满40减15</item>
+        <item>满60减25</item>
+        <item>满80减35</item>
+        <item>满100减50</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="home.PinDanFragment"
+android:background="#eeeeee">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/top_bar"
+        android:layout_height="wrap_content"
+        android:text="      -进行中拼单"
+        android:textSize="25dp"
+        android:textColor="#666666"
+
+        android:background="#ffffff"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_shop_content_roll"
+        android:layout_below="@+id/top_bar"
+        android:layout_above="@+id/btn_add_new_pindan"
+        android:background="#f2f2f2"
+        android:orientation="vertical">
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_add_new_pindan"
+        android:text=" + 发布拼单 "
+        android:textColor="#eeeeee"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:background="#ee6161"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_quik_eat"
+        android:text="快速点餐"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/btn_add_new_pindan"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#aeeb90"
+        android:textColor="#666"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/root_shop"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/shop_cover"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:background="#fff" />
+    <ImageView
+        android:id="@+id/shop_star"
+        android:layout_width="70dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@id/shop_cover"
+        android:layout_below="@id/shop_name"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/star_zerofive" />
+    <TextView
+        android:id="@+id/shop_score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/shop_star"
+        android:text="5.0"
+        android:layout_below="@id/shop_name"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textColor="#636363"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/shop_cover"
+        android:text="麦当劳（江安川大店）"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#636363" />
+
+
+    <ImageView
+        android:id="@+id/distance_line"
+        android:layout_width="1dp"
+        android:layout_height="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@id/time_desc"
+        android:layout_centerInParent="true"
+        android:background="#ddd" />
+
+    <TextView
+        android:id="@+id/distance_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/distance_line"
+        android:textSize="10sp"
+        android:text="1.53km"
+        android:textColor="#aaa" />
+    <TextView
+        android:id="@+id/time_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="30min"
+        android:textSize="10sp"
+        android:textColor="#aaa" />
+
+    <ImageView
+        android:id="@+id/price_line"
+        android:layout_width="1dp"
+        android:layout_height="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@id/price_limit_desc"
+        android:layout_centerInParent="true"
+        android:background="#ddd" />
+
+    <TextView
+        android:id="@+id/price_limit_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/shop_cover"
+        android:layout_marginLeft="15dp"
+        android:textSize="8sp"
+        android:text="起送价 0元"
+        android:textColor="#636363" />
+    <TextView
+        android:id="@+id/price_trans_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/price_line"
+        android:text="配送费 5元"
+        android:textSize="8sp"
+        android:textColor="#636363" />
+    <ImageView
+        android:id="@+id/mid_line"
+        android:layout_width="185dp"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@id/shop_cover"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="15dp"
+        android:background="#cccccc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shop_pinNumber"
+        android:text="2  个拼单进行中"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="10sp"
+        android:layout_toRightOf="@id/shop_cover"/>
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#efeeee" />
+
+</RelativeLayout>

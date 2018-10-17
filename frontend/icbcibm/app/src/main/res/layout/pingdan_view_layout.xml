@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/root_pindan"
+    android:background="@android:color/white">
+
+
+
+    <TextView
+        android:id="@+id/partner_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="已参与人数: 5人"
+        android:layout_below="@id/pindan_name"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="13dp"
+        android:textColor="#636363"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/pindan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="拼单 No.1"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#333333" />
+
+
+
+
+    <TextView
+        android:id="@+id/price_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="8sp"
+        android:text="满100 减10"
+        android:layout_marginLeft="13dp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="还差"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#333333" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="还剩"
+        android:textColor="#333333"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pindan_price"
+        android:text="¥25"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="45dp"
+        android:textSize="30sp"
+        android:textColor="#ed3f3f"
+        android:layout_marginBottom="10dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pindan_time"
+        android:text="1h 23min"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="160dp"
+        android:textSize="15sp"
+        android:textColor="#ff7e8f"
+        android:layout_marginBottom="15dp"/>
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#efeeee" />
+    <ImageView
+        android:id="@+id/btn_good_add"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/goods_add_btn"/>
+
+</RelativeLayout>
